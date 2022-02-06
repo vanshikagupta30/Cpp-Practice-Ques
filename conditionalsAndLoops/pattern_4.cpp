@@ -13,7 +13,7 @@ int main(){
     cout << "Enter input_value-> ";
     // here we take input
     cin >> input_value;
-    // initialise our i to 1 because we have to start row with 1
+    // initialise our i to 1 because we have to start row with 1 and take a variable name as value
     int i = 1, value;
     // jbtk i/row is less than or equal to input hoga tbtk hmara while loop chlega, if i/row is greater than our input value then our condition will false and this will terminate our loop and EXIT
     while(i<=input_value){
@@ -23,6 +23,7 @@ int main(){
         value = i;
         // we check if j/column is less than or equal to i/row if it is then we will go further and we do this because for ith row(for ith row, it prints till ith column)
         while(j<=i){
+            // this will print the value
             cout << value << " ";
             // increment column and value
             j++;
