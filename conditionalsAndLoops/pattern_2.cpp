@@ -17,9 +17,9 @@ int main(){
     cin >> input_value;
     // jbtk row is less than or equal to input hoga tbtk hmara while loop chlega, if row is greater than our input value then our condition will false and this will terminate our loop and EXIT
     while(row<=input_value){
-        // here we check if column is less than or equal to row if it is then we will go further and we do this because of for ith row(for ith row, it prints till ith column) and we initilize column as 1 because here in each column we print it's column number 
+        // here we initilize column as 1 because here in each column we take it's column number 
         int column = 1;
-        // if column is less than or equal to row then this will print the number
+        // we check if column is less than or equal to row if it is then we will go further and we do this because for ith row(for ith row, it prints till ith column)
         while(column<=row){ 
             // here we print value
             cout << value << " ";
