@@ -24,7 +24,7 @@ int main(){
         // if spaces is less than or equal to input_value-row i.e.(n-i) then this will print our spaces 
         while(spaces<=input_value-row){
             // this will print spaces
-            cout << "" << " ";
+            cout << "-" << " ";
             // increment spaces to 1
             spaces++;
         }
