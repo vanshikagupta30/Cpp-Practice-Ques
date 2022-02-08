@@ -21,7 +21,7 @@ int main(){
         int j = 1;
         // we check if j/column is less than or equal to i/row if it is then we will go further and we do this because for ith row(for ith row, it prints till ith column)
         while(j<=input_value){
-            // here we are printing i because in each row we are printing ith/row value
+            // here we are printing i because in each row we are printing ith row value
             cout << i << " ";
             // increment j/column
             j++;
