@@ -25,13 +25,13 @@ int main(){
         while(j<=i){
             // this will print the value
             cout << value << " ";
-            // increment column and value
+            // increment column/j and value
             j++;
             value++;
         }
         // it will break the line
         cout << endl;
-        // increment row
+        // increment row/i
         i++;
     }
 }
