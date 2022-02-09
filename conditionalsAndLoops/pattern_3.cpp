@@ -13,8 +13,8 @@ int main(){
     cout << "Enter input value-> ";
     // here we take input
     cin >> input_value;
-    // and initialise our row to 1 because we have to start row with 1
-    // and every time every row start's with 1 column and we donot have to print 1 in the beining of every row, we ave to increment it by one all the time, so we initilize value as 1
+    // initialise our row to 1 because we have to start row with 1
+    // and every time every row start's with 1 column and we donot have to print 1 in the beining of every row, we have to increment it by one all the time, so we initilize value as 1
     int row = 1, value = 1;
     // jbtk row is less than or equal to input hoga tbtk hmara while loop chlega, if row is greater than our input value then our condition will false and this will terminate our loop and EXIT
     while(row<=input_value){
