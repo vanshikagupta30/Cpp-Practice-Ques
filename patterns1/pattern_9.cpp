@@ -19,7 +19,7 @@ int main(){
     while(i<=n){
         // we initialize j to 1 because we are iterating row and column both and if we donot give any value to j then this will pick garbage value and if we give value of j other than 1 let say 3 or 5 then this will change our pattern completely
         int j = i;
-        // if j is greater than or equal to 1 then this loop will execute if j is less than 1 then this will give us negative number and this terminates this loop
+        // if j is greater than or equal to 1 then this loop will execute, if j is less than 1 then this will give us negative number and this terminates this loop
         while(j>=1){
             // this will print j
             cout << j << " ";
