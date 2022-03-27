@@ -32,3 +32,25 @@ int main(){
         i++;
     }
 }
+
+
+// OR
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout << "Enter the input value-> ";
+//     cin >> n;
+//     int i = 1;
+//     while(i<=n){
+//         int val = i, j = 1;
+//         while(j<=i){
+//             cout << val << " ";
+//             j++;
+//             val--;
+//         }
+//         cout << endl;
+//         i++;
+//     }
+// }
